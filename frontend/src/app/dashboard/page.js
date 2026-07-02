@@ -251,7 +251,7 @@ export default function Dashboard() {
                           <td>
                             <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
                               <a 
-                                href={`http://localhost:5000${sub.fileUrl}`} 
+                                href={`${process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:5000"}${sub.fileUrl}`} 
                                 target="_blank" 
                                 className="btn btn-outline" 
                                 style={{ padding: "6px 12px", fontSize: "12px", display: "inline-flex", gap: "4px" }}
