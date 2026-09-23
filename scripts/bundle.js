@@ -143,7 +143,7 @@ pm2 save
 pm2 startup
 \`\`\`
 
-Backend runs on port 5000.
+Backend runs on port 7000.
 Frontend runs on port 4000.
 `;
 fs.writeFileSync(path.join(STAGING_DIR, 'README-DEPLOY.md'), deployReadme);
