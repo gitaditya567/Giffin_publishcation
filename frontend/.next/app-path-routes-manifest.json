@@ -1,17 +1,17 @@
 {
-  "/_not-found/page": "/_not-found",
   "/favicon.ico/route": "/favicon.ico",
-  "/dashboard/page": "/dashboard",
-  "/contact/page": "/contact",
-  "/book-store/page": "/book-store",
-  "/cart/page": "/cart",
+  "/_not-found/page": "/_not-found",
   "/about/page": "/about",
-  "/gallery/page": "/gallery",
-  "/login/page": "/login",
+  "/cart/page": "/cart",
+  "/contact/page": "/contact",
   "/e-book/page": "/e-book",
   "/journals/page": "/journals",
-  "/publish-book/page": "/publish-book",
+  "/gallery/page": "/gallery",
+  "/login/page": "/login",
+  "/dashboard/page": "/dashboard",
   "/page": "/",
+  "/publish-book/page": "/publish-book",
   "/publish-chapter/page": "/publish-chapter",
-  "/signup/page": "/signup"
+  "/signup/page": "/signup",
+  "/book-store/page": "/book-store"
 }

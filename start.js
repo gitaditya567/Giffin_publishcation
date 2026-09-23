@@ -11,8 +11,8 @@ const fs = require('fs');
 const BACKEND_DIR = path.join(__dirname, 'backend');
 const FRONTEND_DIR = path.join(__dirname, 'frontend');
 
-const BACKEND_PORT = process.env.BACKEND_PORT || process.env.PORT || 5000;
-const FRONTEND_PORT = process.env.FRONTEND_PORT || 5020;
+const BACKEND_PORT = process.env.BACKEND_PORT || process.env.PORT || 7000;
+const FRONTEND_PORT = process.env.FRONTEND_PORT || 4000;
 
 console.log('====================================================');
 console.log('  🚀 Starting Griffin Publication Production Server');

@@ -21,14 +21,14 @@ module.exports = {
       max_memory_restart: '500M',
       env: {
         NODE_ENV: 'production',
-        PORT: 5000,
+        PORT: 7000,
       },
     },
     {
       name: 'griffin-frontend',
       cwd: './frontend',
       script: 'node_modules/next/dist/bin/next',
-      args: 'start -p 5020',
+      args: 'start -p 4000',
       instances: 1,
       exec_mode: 'fork',
       autorestart: true,
@@ -36,7 +36,7 @@ module.exports = {
       max_memory_restart: '800M',
       env: {
         NODE_ENV: 'production',
-        PORT: 5020,
+        PORT: 4000,
       },
     },
   ],
