@@ -8,9 +8,16 @@ node_modules/
 
 # production / builds
 /build
-.next/
 out/
 backend/uploads/
+.next/cache/
+.next/trace
+.next/standalone/
+frontend/.next/cache/
+frontend/.next/trace
+frontend/.next/standalone/
+_production_release/
+*.zip
 
 # misc
 .DS_Store

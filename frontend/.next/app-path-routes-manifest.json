@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/dashboard/page": "/dashboard",
+  "/contact/page": "/contact",
+  "/book-store/page": "/book-store",
+  "/cart/page": "/cart",
+  "/about/page": "/about",
+  "/gallery/page": "/gallery",
+  "/login/page": "/login",
+  "/e-book/page": "/e-book",
+  "/journals/page": "/journals",
+  "/publish-book/page": "/publish-book",
+  "/page": "/",
+  "/publish-chapter/page": "/publish-chapter",
+  "/signup/page": "/signup"
+}
